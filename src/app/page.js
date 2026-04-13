@@ -292,7 +292,7 @@ function App() {
             {/* Mobile View */}
             <div className="lg:hidden ">
               <div className="text-center mb-8">
-                <h1 className="text-3xl mt-9 md:text-4xl font-bold text-gray-900 leading-tight mb-4 animate-float-in">
+                <h1 className="text-3xl mt-9 max-[900px]:mt-5 md:text-4xl font-bold text-gray-900 leading-tight mb-4 animate-float-in">
                   Explore Tanzania
                 </h1>
                 <p
