@@ -100,7 +100,7 @@ const Header = () => {
           <div className="flex justify-between pl-4 items-center h-20">
             {/* Logo */}
             <div className=" cursor-pointer" onClick={() => handleNavigation()}>
-              <Image src={logo} alt="logo" className="h-16 w-auto" />
+              <Image src={logo} alt="logo" className="h-16 max-[900px]:h-12 w-auto" />
             </div>
 
             {/* Center Navigation - Desktop */}
