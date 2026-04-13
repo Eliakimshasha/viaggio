@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import curve1 from "../../public/assets/images/nyumbuz (5).jpg";
 import curve2 from "../../public/assets/images/nyumbuz (3).jpg";
 import curve3 from "../../public/assets/images/ti1.jpg";
@@ -15,6 +16,7 @@ import TravelStyle from "./travel-style/TravelStyle";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function App() {
+  const router = useRouter();
   const [activeSlides, setActiveSlides] = useState({});
   const [currentMainIndex, setCurrentMainIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -81,18 +83,15 @@ function App() {
   };
 
   const handleBookNow = (routeId) => {
-    console.log(`Navigate to route: ${routeId}`);
-    // Add navigation logic here
+    router.push(`/routes/${routeId}`);
   };
 
   const navigateToDestinations = () => {
-    console.log("Navigate to destinations");
-    // Add navigation logic here
+    router.push("/destinations");
   };
 
   const navigateToContact = () => {
-    console.log("Navigate to contact");
-    // Add navigation logic here
+    router.push("/contact");
   };
 
   return (

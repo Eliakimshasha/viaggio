@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation";
 import React from "react";
 import Image from "next/image";
-import logo from "../public/assets/images/logo3.png";
+import logo from "../public/assets/images/logo.png";
 
 const Footer = () => {
   const path = usePathname();
@@ -22,19 +22,13 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li>
-                <span className="text-gray-600">
-                  About us
-                </span>
+                <span className="text-gray-600">About us</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Contact
-                </span>
+                <span className="text-gray-600">Contact</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Payment options
-                </span>
+                <span className="text-gray-600">Payment options</span>
               </li>
             </ul>
           </div>
@@ -46,29 +40,19 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li>
-                <span className="text-gray-600">
-                  Unlock travel styles
-                </span>
+                <span className="text-gray-600">Unlock travel styles</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Explore destinations
-                </span>
+                <span className="text-gray-600">Explore destinations</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Hike Mt.Kilimanjaro
-                </span>
+                <span className="text-gray-600">Hike Mt.Kilimanjaro</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Streets of DSM
-                </span>
+                <span className="text-gray-600">Streets of DSM</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Escape DSM
-                </span>
+                <span className="text-gray-600">Escape DSM</span>
               </li>
             </ul>
           </div>
@@ -78,14 +62,10 @@ const Footer = () => {
             <h3 className="text-gray-900 text-lg font-semibold mb-6">Legal</h3>
             <ul className="space-y-4">
               <li>
-                <span className="text-gray-600">
-                  Terms and Conditions
-                </span>
+                <span className="text-gray-600">Terms and Conditions</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Privacy policy
-                </span>
+                <span className="text-gray-600">Privacy policy</span>
               </li>
             </ul>
           </div>
@@ -97,14 +77,10 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li>
-                <span className="text-gray-600">
-                  Instagram
-                </span>
+                <span className="text-gray-600">Instagram</span>
               </li>
               <li>
-                <span className="text-gray-600">
-                  Twitter
-                </span>
+                <span className="text-gray-600">Twitter</span>
               </li>
             </ul>
           </div>

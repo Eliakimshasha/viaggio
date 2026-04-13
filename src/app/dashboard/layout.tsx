@@ -1,5 +1,5 @@
 import { Sidebar } from "../../../components/dashboard/sidebar";
-import logo from "../../../public/assets/images/logo3.png";
+import logo from "../../../public/assets/images/logo.png";
 import Image from "next/image";
 
 export default function DashboardLayout({ children }) {

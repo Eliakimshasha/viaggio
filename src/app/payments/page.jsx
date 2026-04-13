@@ -27,7 +27,7 @@ import {
   RadioButtonUnchecked,
   Schedule,
 } from "@mui/icons-material";
-import logo from "../../../public/assets/images/logo3.png";
+import logo from "../../../public/assets/images/logo.png";
 import { Label } from "../../../components/ui/Label";
 import CountrySelect from "../../../components/CountrySelect";
 
@@ -280,7 +280,7 @@ const BookingFlowContent = () => {
           id: index + 1,
           fullName: "",
           email: "",
-        })
+        }),
       );
       setParticipants(newParticipants);
     } else {
@@ -295,7 +295,7 @@ const BookingFlowContent = () => {
           gender: "",
           nationality: "",
           phone: "",
-        })
+        }),
       );
       setTravelers(newTravelers);
     }
@@ -308,16 +308,18 @@ const BookingFlowContent = () => {
   const updateParticipant = (id, field, value) => {
     setParticipants((prev) =>
       prev.map((participant) =>
-        participant.id === id ? { ...participant, [field]: value } : participant
-      )
+        participant.id === id
+          ? { ...participant, [field]: value }
+          : participant,
+      ),
     );
   };
 
   const updateTraveler = (id, field, value) => {
     setTravelers((prev) =>
       prev.map((traveler) =>
-        traveler.id === id ? { ...traveler, [field]: value } : traveler
-      )
+        traveler.id === id ? { ...traveler, [field]: value } : traveler,
+      ),
     );
   };
 
@@ -391,7 +393,7 @@ const BookingFlowContent = () => {
   const handleStartDateChange = (newStartDate) => {
     const calculatedEndDate = calculateEndDate(
       newStartDate,
-      experienceDetails.duration
+      experienceDetails.duration,
     );
     setAdventureDetails((prev) => ({
       ...prev,
@@ -596,7 +598,7 @@ const BookingFlowContent = () => {
                     updateParticipant(
                       participant.id,
                       "fullName",
-                      e.target.value
+                      e.target.value,
                     )
                   }
                   className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-gray-500"
@@ -893,7 +895,7 @@ const BookingFlowContent = () => {
     const totalAmount = calculateTotal();
     const cycles = Number.parseInt(installmentCycles) || 3;
     const monthlyPayment = Math.round(
-      (totalAmount - initialAmount) / (cycles - 1)
+      (totalAmount - initialAmount) / (cycles - 1),
     );
 
     return (
@@ -929,8 +931,8 @@ const BookingFlowContent = () => {
                             payment.status === "completed"
                               ? "#4CAF50"
                               : payment.status === "pending"
-                              ? "#FF9800"
-                              : "#9E9E9E",
+                                ? "#FF9800"
+                                : "#9E9E9E",
                           fontWeight: payment.status === "pending" ? 600 : 400,
                           fontSize: "0.875rem",
                         },
@@ -1028,7 +1030,7 @@ const BookingFlowContent = () => {
           className="w-full bg-black text-white py-4 rounded-xl font-semibold hover:bg-gray-800 transition-colors text-base"
           onClick={() => {
             const nextPayment = paymentHistory.find(
-              (p) => p.status === "pending"
+              (p) => p.status === "pending",
             );
             if (nextPayment) {
               // Navigate to payment form
@@ -1225,7 +1227,7 @@ const BookingFlowContent = () => {
                 onClick={() => {
                   // Handle payment processing here
                   const nextPayment = paymentHistory.find(
-                    (p) => p.status === "pending"
+                    (p) => p.status === "pending",
                   );
                   if (nextPayment) {
                     // Update payment status and move to next step
@@ -1235,9 +1237,9 @@ const BookingFlowContent = () => {
                         p.id === nextPayment.id
                           ? { ...p, status: "completed" }
                           : p.id === nextPayment.id + 1
-                          ? { ...p, status: "pending" }
-                          : p
-                      )
+                            ? { ...p, status: "pending" }
+                            : p,
+                      ),
                     );
                     // Go back to payment history
                     setInstallmentStep(2);
@@ -1581,8 +1583,8 @@ const BookingFlowContent = () => {
                   {experienceDetails.routeName === "Cycling Experiences"
                     ? "Bicycles and Helmet"
                     : experienceDetails.routeName === "Football Experiences"
-                    ? "Entry Fee, Jersey and Drinks"
-                    : "Transport, Meals, Professional Guides"}
+                      ? "Entry Fee, Jersey and Drinks"
+                      : "Transport, Meals, Professional Guides"}
                 </div>
               </div>
             </div>

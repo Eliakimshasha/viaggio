@@ -146,7 +146,7 @@ const Header = () => {
                       ? "bg-[#946626] hover:bg-[#7a4f1f]"
                       : "bg-[#946626] hover:bg-[#7a4f1f]"
                   } text-white px-3 md:px-6 py-2 rounded-full transition-colors duration-200 font-medium text-sm`}
-                  // onClick={navigateToContact}
+                  onClick={navigateToContact}
                 >
                   Host with us
                 </button>
