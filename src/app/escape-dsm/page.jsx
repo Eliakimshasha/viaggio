@@ -247,7 +247,7 @@ const EscapeDar = () => {
 
                   <button
                     onClick={() => handleBookNow(route.id)}
-                    className="inline-flex items-center px-8 py-3 bg-[#7db750] text-white rounded-full font-semibold hover:bg-[#946626] transition-colors cursor-pointer"
+                    className="inline-flex items-center px-8 py-3 bg-[#946626] text-white rounded-full font-semibold hover:bg-[#7a4f1f] transition-colors cursor-pointer"
                   >
                     Book Now
                     <ArrowRight className="ml-2 w-5 h-5" />

@@ -159,7 +159,7 @@ const Header = () => {
                     ? "bg-white"
                     : isLemoshoRoute
                     ? "bg-transparent"
-                    : "bg-[#D9EDD9]"
+                    : "bg-[#ede5d9]"
                 } space-x-4 px-4 py-[6px]  pb-0 border border-gray-400 rounded-full`}
               >
                 {/* Profile Dropdown */}

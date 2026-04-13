@@ -22,28 +22,19 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li>
-                <a
-                  href="about"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   About us
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="contact"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Contact
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="pricing"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Payment options
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -55,44 +46,29 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li>
-                <a
-                  href="travel-style"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Unlock travel styles
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="destinations"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Explore destinations
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="kilimanjaro"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Hike Mt.Kilimanjaro
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="dsm-experiences"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Streets of DSM
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="escape-dsm"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Escape DSM
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -102,20 +78,14 @@ const Footer = () => {
             <h3 className="text-gray-900 text-lg font-semibold mb-6">Legal</h3>
             <ul className="space-y-4">
               <li>
-                <a
-                  href="terms"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Terms and Conditions
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="privacy"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Privacy policy
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -127,20 +97,14 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li>
-                <a
-                  href="https://www.instagram.com/True Africa Escapetz"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Instagram
-                </a>
+                </span>
               </li>
               <li>
-                <a
-                  href="https://x.com/True Africa Escapetz"
-                  className="text-gray-600 hover:text-gray-900 transition-colors"
-                >
+                <span className="text-gray-600">
                   Twitter
-                </a>
+                </span>
               </li>
             </ul>
           </div>

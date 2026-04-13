@@ -277,7 +277,7 @@ export default function ContactForm() {
               />
             </Link>{" "}
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=reuben@True Africa Escapetz.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=reuben@viaggiotanzania.com"
               target="_blank"
             >
               <Image

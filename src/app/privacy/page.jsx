@@ -214,7 +214,7 @@ function PrivacyPolicyPage() {
                   settings, or opt out of marketing communications, you can
                   contact us anytime at{" "}
                   <strong className="text-red-700">
-                    reuben@True Africa Escapetz.com
+                    reuben@viaggiotanzania.com
                   </strong>
                   . We will process your request as quickly as possible to
                   ensure your privacy preferences are respected.

@@ -185,7 +185,7 @@ function TermsConditionsPage() {
                         <div className="w-2 h-2 bg-[#946626] rounded-full mt-2 flex-shrink-0"></div>
                         <span>
                           All cancellations must be made in writing and sent to{" "}
-                          <strong>reuben@Viaggio Tanzaniatz.com</strong> that
+                          <strong>reuben@viaggiotanzania.com</strong> that
                           can be confirmed in writing to an email within 24
                           hours and effective from the day we are notified,
                           provided that written confirmation is received by us
